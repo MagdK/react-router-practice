@@ -1,10 +1,11 @@
 import React from 'react'
+import Layout from './Layout'
 
 function Contact() {
   return (
-      <section>
-          <div>Contact</div>
-      </section>
+      <Layout>
+            <h2>Contact</h2>
+      </Layout>
   )
 }
 
